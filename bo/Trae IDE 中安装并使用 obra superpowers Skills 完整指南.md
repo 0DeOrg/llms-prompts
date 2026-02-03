@@ -48,21 +48,21 @@ git clone https://github.com/obra/superpowers.git ~/temp-superpowers
 mkdir -p ~/.trae/skills
 ```
 
-**4. 只拷贝 skills 文件夹里的 .md 文件**（核心！其他文件夹不要拷贝）
+**4. 只拷贝 skills 文件夹里的所有文件**（核心！其他文件夹不要拷贝）
 
 macOS/Linux：
 
 ```bash
-cp ~/temp-superpowers/skills/*.md ~/.trae/skills/
+cp ~/temp-superpowers/skills/* ~/.trae/skills/
 ```
 
 Windows（PowerShell）：
 
 ```powershell
-Copy-Item -Path ~/temp-superpowers/skills/*.md -Destination ~/.trae/skills/
+Copy-Item -Path ~/temp-superpowers/skills/* -Destination ~/.trae/skills/
 ```
 
-或者用文件资源管理器手动拖拽 `temp-superpowers/skills/` 里的所有 .md 到 `C:\Users\你的用户名\.trae\skills\`
+或者用文件资源管理器手动拖拽 `temp-superpowers/skills/` 里的所有文件到 `C:\Users\你的用户名\.trae\skills\` 下
 
 **5. （可选）清理临时目录**
 
